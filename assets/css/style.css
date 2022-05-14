@@ -234,12 +234,10 @@ padding-right: 15px;
   text-transform: uppercase;
 }
 
-
 #header .logo a {
   color: #fff;
 }
 #header .logo img {
-  margin-left: 80px;
   max-height: 100px;
 }
 
@@ -321,7 +319,7 @@ padding-right: 15px;
 }
 .navbar .dropdown ul {
   display: block;
-  position: relative;
+  position: absolute;
   left: 24px;
   top: calc(100% + 30px);
   margin: 0;
@@ -375,12 +373,6 @@ padding-right: 15px;
 /**
 * Mobile Navigation 
 */
-.navbar ul li a{
-  font-size: 20px;
-  align-items: center;
-
-}
-
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -411,19 +403,19 @@ padding-right: 15px;
   z-index: 999;
 }
 .navbar-mobile .mobile-nav-toggle {
-  color: #000;
   position: fixed;
   top: 15px;
   right: 15px;
-
+  color: #000;
+  font-size:40px;
 }
 .navbar-mobile ul {
   display: block;
-  position:fixed;
+  position: fixed;
   top: 55px;
   right: 15px;
   bottom: 355px;
-  border-radius: 10px;
+  border-radius:5px;
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
@@ -435,7 +427,7 @@ padding-right: 15px;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 25px;
   color: #2c4964;
 }
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
@@ -548,6 +540,7 @@ padding-right: 15px;
     line-height: 36px;
   }
   #hero h2 {
+    padding-top: 50px;
     font-size: 18px;
     line-height: 24px;
   }
