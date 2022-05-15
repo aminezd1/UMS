@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 .navbar > ul > li {
-  padding: 10px 0 10px 2px;
+  padding: 10px 0 10px 20px;
 }
 .navbar a, .navbar a:focus {
   display: flex;
