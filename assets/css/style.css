@@ -512,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 1200px) {
   #hero .btn-get-started {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   #hero {
     background-attachment: fixed;
@@ -523,7 +523,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 991px) {
   #hero .btn-get-started {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   #hero {
     text-align: center;
@@ -547,7 +547,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   #hero .btn-get-started {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   #hero h1 {
     padding-top: 50px;
@@ -567,7 +567,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 575px) {
   #hero .btn-get-started {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   #hero .hero-img img {
     width: 80%;
@@ -578,7 +578,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 575px), (max-height: 600px) {
   #hero .btn-get-started {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   #hero {
     height: auto;
