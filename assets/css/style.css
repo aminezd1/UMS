@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 28px;
+  font-size: 25px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -426,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 25px;
+  font-size: 20px;
   color: #2c4964;
 }
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
@@ -536,9 +536,11 @@ h1, h2, h3, h4, h5, h6 {
     animation: none;
   }
   #hero .hero-img {
+    padding-top: 10px;
     text-align: center;
   }
   #hero .hero-img img {
+    padding-top: 10px;
     width: 50%;
   }
   #hero h2 {
@@ -562,6 +564,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 15px;
   }
   #hero .hero-img img {
+    padding-top: 10px;
     width: 60%;
   }
 }
@@ -570,6 +573,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
   }
   #hero .hero-img img {
+    padding-top: 10px;
     width: 80%;
   }
   #hero h2 {
