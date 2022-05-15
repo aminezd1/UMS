@@ -536,10 +536,12 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #hero h1 {
     padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 30px;
     line-height: 10px;
   }
   #hero h2 {
+    display: none;
     padding-top: 40px;
     font-size: 18px;
     line-height: 15px;
