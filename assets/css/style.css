@@ -514,6 +514,9 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     background-attachment: fixed;
   }
+  #hero h2 {
+    display: none;
+  }
 }
 @media (max-width: 991px) {
   #hero {
@@ -531,6 +534,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   #hero .hero-img img {
     width: 50%;
+  }
+  #hero h2 {
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -554,10 +560,16 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 80%;
   }
+  #hero h2 {
+    display: none;
+  }
 }
 @media (max-width: 575px), (max-height: 600px) {
   #hero {
     height: auto;
+  }
+  #hero h2 {
+    display: none;
   }
 }
 
