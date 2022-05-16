@@ -147,70 +147,38 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-.customer-logos {
-  padding-top: 20px;
-  padding-bottom: 30px;
+
+
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 15));
+  }
 }
-.section-title{
-  margin-top: 50px;
-}
-.slick-slide{
-    margin: 0 50px;
-}
-.slick-slide img{
-    width: 130px;
-}
-.slick-slider{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
-.slick-list{
-    position: relative;
-    display: block;
-    place-items: center;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-track{
-    position: relative;
-    top: 0;
-    left: 0;  
-    display: block
-}
-.slick-slide{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-}
-.slick-slide img{
-    position: relative;
-    width: 120px;
-    height:65px;
-}
-.slick-initialized .slick-slide{
-    display: block;
+.slider{
+  width: auto;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
 }
 
-@media only screen and (max-width: 480px){
-  .slick-list{
-    position: relative;
-    overflow:hidden;
-    margin: 0;
-    padding: 0;
-    display: -webkit-box; 
-}
-.slick-slide {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.customer-logos  {
-  padding-bottom: 0px;
+.slider .slide-track{
+  animation: scroll 40s linear infinite;
+  display: flex;
+  margin: auto;
+  width: calc( 250px * 6);
 }
 
+.slide img{
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 60px;
+  width: 80px;
 }
+
 
 /*--------------------------------------------------------------
 # Header
