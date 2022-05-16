@@ -478,6 +478,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 84px;
 }
 #hero h1 {
+  padding-bottom: 20px;
   margin: 0;
   font-size: 70px;
   letter-spacing: 10px; 
@@ -893,6 +894,19 @@ padding-top: 5px;
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+@media (max-width: 991px) {
+#portfolio .prolog{
+  display: none;
+ }
+ #prologmobile{
+  display: inline;
+
+ }
+}
+#portfolio #prologmobile{
+  display: none;
+ }
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -999,6 +1013,7 @@ padding-top: 5px;
   bottom: calc(50% - 50px);
 }
 
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1064,7 +1079,12 @@ padding-top: 5px;
   box-sizing: content-box;
   min-height: 320px;
 }
+.testimonials .testimonial-item .test-img{
 
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
@@ -1145,6 +1165,7 @@ padding-left: 230px;
 
 .pricing .box {
   padding: 20px;
+  background-size: 500px;
   background: #fff;
   text-align: center;
   border-radius: 5px;
@@ -1448,6 +1469,7 @@ padding-left: 230px;
   }
 }
 .breadcrumbs h2 {
+  padding-top: 15px;
   font-size: 28px;
   font-weight: 300;
 }
