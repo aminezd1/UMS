@@ -779,6 +779,16 @@ section {
   color: rgba(255, 255, 255, 0.8);
 }
 
+@media screen and (max-width: 640px){
+  .counts .counters h4 {
+    font-size: 13px;
+    display: block;
+    color: #000;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
