@@ -765,10 +765,10 @@ section {
   padding: 80px 0 60px 0;
 
 }
-.counts .counters span {
-  font-size: 48px;
+.counts .counters h4 {
+  font-size: 15px;
   display: block;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
