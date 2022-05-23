@@ -37,6 +37,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 
+ <!-- The video 
+  <video autoplay muted loop id="myVideo">
+    <source src="" type="video/mp4" class="vd" alt="UMS">
+  </video>-->
+
 </head>
 
 <body>
@@ -64,7 +69,8 @@
           </li>
           <li><a class="nav-link scrollto" href="#ref">Nos References</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a href="" ><span class="iconify" data-icon="flag:ma-4x3"></span></a></li>
+          <li><a class="getstarted scrollto" href="#about" style="text-decoration: none;">STORE</a></li>
+          <li><a href="" ><span class="iconify" data-icon="flag:ma-4x3" style="text-decoration: none;"></span></a></li> 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -79,7 +85,6 @@
         <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1><span style="color: #F58434;">UNION</span><br><span style="color: #BA3130;line-height:100px;">MARRUECOS</span><br><span style="color: #20459D;">SOLUCIÓN</span></h1>
          <!-- <div  style="color: aliceblue ; font-size: 50px;left: 50%;" class="welcome-text"></div>-->
-          <div><a href="" style="text-decoration:none;" class="btn-get-started scrollto">STORE</a></div>
         </div>
         <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
           <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
@@ -89,7 +94,42 @@
 
   </section><!-- End Hero -->
 
-  <main id="main">
+
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts" data-aos="fade-up">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="row counters">
+            <div class="col-lg-3 col-6 text-center">
+              <i class='bx bx-support' style="font-size: 50px;"></i>
+              <br><br>
+              <h3>SUPPORT TECHNIQUE</h3>
+            </div>
+  
+            <div class="col-lg-3 col-6 text-center">
+              <i class='bx bxs-like' style="font-size: 50px;"></i>
+              <br><br>
+              <h3>SERVICE APRÈS VENTE</h3>
+            </div>
+  
+            <div class="col-lg-3 col-6 text-center">
+              <i class='bx bxs-cog' style="font-size: 50px;"></i>
+              <br><br>
+              <h3>HOMOLOGATION MACHINES</h3>
+            </div>
+  
+            <div class="col-lg-3 col-6 text-center"> 
+              <i class='bx bxs-award' style="font-size: 50px;"></i>
+              <br><br>
+              <h3>CERTIFICATIONS MACHINES</h3>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Counts Section -->
+
+
 <!-- About Section -->
     <section id="about" class="about" >
       <div class="container" data-aos="fade-up">
@@ -99,7 +139,7 @@
             <br>
             <p class="pa">
               Créer en 2007, U.M.S est un groupe d’entreprise de haute technologie qui
-              se consacre au développement, à la production et à la commercialisation
+              se consacre au développement, à la production et à la commercialisation 
               d’équipement financiers depuis plus de 20 ans d’expérience.</p>
           </div>
           <br><br>
@@ -110,11 +150,10 @@
         <div class="row">
         <!-- Secend -->
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3>Une Technologie intelligente pour les Solutions Bancaires.</h3>
-            <p class="fst-italic">Traitement de billets et monnaie.</p>
+            <h3 style="color:#000;">Traitement de billets et monnaie.</h3>
             <ul>
               <li><i class="bi bi-check-circle"></i> Système intelligent pour le dépôt d’argent.</li>
               <li><i class="bi bi-check-circle"></i> Compteuse et trieuse des billets.</li>
@@ -128,48 +167,14 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
-
-        <div class="row counters">
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
-            <p>EXPERTISE</p>
-            <!--<p style="color: rgb(40, 40, 40);">Équipe technique Disponible <br> 24h/7j.</p>-->
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-
-            <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-            <p>CLIENTS HEUREUX</p>
-            <!--<p style="color: rgb(40, 40, 40);"> BAM <br> Bank Al-Maghrib.</p>-->
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0"  data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
-            <p>SERVICE APRÈS VENTE</p>
-            <!--<p style="color: rgb(40, 40, 40);"> Nous accompagnons vos demandes, même après achat, pour assurer le bon déroulement du service.</p>-->
-          </div>
-
-          <div class="col-lg-3 col-6 text-center"> 
-            <span data-purecounter-start="0" data-purecounter-end="17" data-purecounter-duration="1" class="purecounter"></span>
-            <p>EQUIPE CERTIFIÉ</p>
-           <!--<p style="color: rgb(40, 40, 40);">Banque Centrale Européen – ROHS  – CE  – BCE – EMC – LVD – ISO 9001.</p>-->
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Découvrir Nos Produits...</p>
+          <h2 style="color:#fff;">Services</h2>
+          <p style="color:#fff;">Découvrir Nos Produits...</p>
         </div>
 
         <div class="row gy-4">
@@ -269,140 +274,6 @@
       </div>
     </section><!-- End Services Section -->
 
-
-    <!-- ======= Clients Section ======= -->
-    <div id="ref" class="container" data-aos="fade-up">
-      <br>
-      <div class="section-title" >
-       <h2>PARTNERS</h2>
-
-         <div class="slider">
-          <div class="slide-track">
-
-           <div class="slide">
-              <img src="assets/img/Client/2m.jpg" alt="2M">
-           </div>
-              <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/royal air maroc.png" alt="Royal Air Maroc">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/Coca-Cola_logo.svg" alt="Coca Cola">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/macdo.jpg" alt="Macdonalds">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/marjane.png" alt="Marjane">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/les domaines agricole.png" alt="Les Domaines Agricole">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/KOUTOBIA.png" alt="Koutobia">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/central.png" alt="Central">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/poste.jpg" alt="Poste Maroc">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/aksal.png" alt="Aksal">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/akwa.png" alt="Akwa">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/ALD.png" alt="ALD">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/alpha.png" alt="Alpha 55">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/anfaplace.png" alt="AnfaPlace">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/casapacking.jpg" alt="CasaPacking">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/COPAG.png" alt="Copag">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/credint agricole.png" alt="Credit Agricole">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/europcar.png" alt="Europcar">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/excelo.png" alt="Excelo">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/medmilk.png" alt="Medmilk">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/ola.png" alt="OLA">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/NESTLE.png" alt="Nestle">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/office national .png" alt="Ofiice National">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/oncf.png" alt="ONCF">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/procheck.png" alt="Procheck">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/radem.png" alt="Radem">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/sntl.jpg" alt="Sntl">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/wecasa.png" alt="We Casablanca">
-           </div>
-           <div></div>
-           <div class="slide">
-            <img src="assets/img/Client/WFC.png" alt="WafaCash">
-           </div>
-           <div></div>
-
-         </div>
-        </div>
-      </div>
-    </div>
-
-    <!--======= End Clients Section======= -->
-
 <!-- ======= Features Section ======= 
 <section id="features" class="features">
   <div class="container" data-aos="fade-up">
@@ -494,6 +365,140 @@
         </div>
       </div>
     </section><!-- End Pricing Section -->
+
+        <!-- ======= Clients Section ======= -->
+        <div id="ref" class="container" data-aos="fade-up">
+          <br>
+          <div class="section-title" >
+           <h2>PARTNERS</h2>
+    
+             <div class="slider">
+              <div class="slide-track">
+    
+               <div class="slide">
+                  <img src="assets/img/Client/2m.jpg" alt="2M">
+               </div>
+                  <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/royal air maroc.png" alt="Royal Air Maroc">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/Coca-Cola_logo.svg" alt="Coca Cola">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/macdo.jpg" alt="Macdonalds">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/marjane.png" alt="Marjane">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/les domaines agricole.png" alt="Les Domaines Agricole">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/KOUTOBIA.png" alt="Koutobia">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/central.png" alt="Central">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/poste.jpg" alt="Poste Maroc">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/aksal.png" alt="Aksal">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/akwa.png" alt="Akwa">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/ALD.png" alt="ALD">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/alpha.png" alt="Alpha 55">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/anfaplace.png" alt="AnfaPlace">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/casapacking.jpg" alt="CasaPacking">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/COPAG.png" alt="Copag">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/credint agricole.png" alt="Credit Agricole">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/europcar.png" alt="Europcar">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/excelo.png" alt="Excelo">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/medmilk.png" alt="Medmilk">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/ola.png" alt="OLA">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/NESTLE.png" alt="Nestle">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/office national .png" alt="Ofiice National">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/oncf.png" alt="ONCF">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/procheck.png" alt="Procheck">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/radem.png" alt="Radem">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/sntl.jpg" alt="Sntl">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/wecasa.png" alt="We Casablanca">
+               </div>
+               <div></div>
+               <div class="slide">
+                <img src="assets/img/Client/WFC.png" alt="WafaCash">
+               </div>
+               <div></div>
+    
+             </div>
+            </div>
+          </div>
+        </div>
+    
+        <!--======= End Clients Section======= -->
+        
 
     <!-- ======= Portfolio Section ======= -->
      <!--  <section style="padding-top: 50px;" id="portfolio" class="portfolio">
@@ -602,7 +607,7 @@
 
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq">
+    <section id="faq" class="faq" data-aos="fade-up">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -654,30 +659,34 @@
         <div class="row">
 
           <div class="col-lg-6 ">
-            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=658&amp;height=400&amp;hl=en&amp;q=ums&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://mcpepro.com/">MCPEPRO</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:385px;}.gmap_iframe {height:400px!important;}</style></div>          </div>
+              <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=658&amp;height=400&amp;hl=en&amp;q=ums&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+              </div>
+              <style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:385px;}.gmap_iframe {height:400px!important;}</style>
+            </div>
+          </div>
 
           <div class="col-lg-6">
-            <form action="assets/php/mail.php" method="post" role="form" class="php-email-form">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nom et Prénom" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Votre Objet" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Votre Message" required></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Envoyer Message</button></div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
 
@@ -781,7 +790,32 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <!-- script for E-mail 
+  <script type="text/javascript"src="https://smtpjs.com/v3/smtp.js" ></script>
   
+  <script type="text/javascript">  
+      const form = document.querySelector('.contact_form');
+  function sendEmail(e){
+    e.preventDefault();
+   const name = document.querySelector('.name'),
+    email = document.querySelector('.email'),
+    subject = document.querySelector('.subject'),
+    message = document.querySelector('.message');
+
+   Email.send({
+    SecureToken : "81f193f5-4968-44d5-a599-e26d47fe7108",
+    To : 'oussamaziadi58@gmail.com',
+    From : email.value,
+    Subject : subject.value,
+    Body : message.value
+    }).then(
+           message => alert("ok")
+      );
+  }
+
+   form.addEventListener('submit', sendEmail);
+  </script> -->
+
 <!-- typed script 
 <script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>
 <script>
