@@ -395,15 +395,21 @@ z-index: -1;
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #000;
   font-size: 25px;
   cursor: pointer;
   display: none;
   line-height: 0;
   transition: 0.5s;
 }
-
+#st{
+  display: none;
+}
 @media (max-width: 991px) {
+
+  #st{
+    display: flex;
+  }
   .mobile-nav-toggle {
     display: block;
     
@@ -411,6 +417,7 @@ z-index: -1;
 
   .navbar ul {
     display: none;
+    color: #000;
   }
 
 .navbar-mobile {
@@ -448,20 +455,21 @@ z-index: -1;
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 20px;
-  color: #2c4964;
+  color: #000;
 }
-.navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
-  visibility: hidden;
-}
+
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #5846f9;
+  
+  color: #000;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
-  margin: 15px;
+ display: none;
 }
+
 .navbar-mobile .dropdown ul {
   position: static;
   display: none;
+  font-size: 10px;
   margin: 10px 20px;
   padding: 10px 0;
   z-index: 99;
