@@ -788,7 +788,9 @@ section {
   font-size: 15px;
   color: rgba(255, 255, 255, 0.8);
 }
-
+.mobile-break { 
+  display: none; 
+}
 @media screen and (max-width: 640px){
   .counts .counters h4 {
     font-size: 13px;
@@ -797,6 +799,11 @@ section {
     font-weight: 600;
     font-family: "Poppins", sans-serif;
   }
+
+  .mobile-break { 
+    display: flex; 
+  }
+    
 }
 
 /*--------------------------------------------------------------
