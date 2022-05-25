@@ -41,6 +41,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 35px;
   text-align: center; 
 }
+.about #who img{
+
+  position: absolute;
+  
+}
 video{
 position:absolute;
 object-fit: cover;
@@ -814,24 +819,11 @@ background: linear-gradient(0deg, rgba(32,69,157,1) 7%, rgba(186,49,48,1) 97%);
 }
 .services .icon-box {
   text-align: center;
-  padding: 0;
+  width: 90%;
+  padding: 10;
   transition: all ease-in-out 0.3s;
   background:#f5f5f5;
   border-radius: 5px;
-}
-.services .icon-box .icon {
-  margin: 0 auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
-}
-.services .icon-box .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
 }
 
 .services .icon-box h4 {
@@ -842,25 +834,34 @@ background: linear-gradient(0deg, rgba(32,69,157,1) 7%, rgba(186,49,48,1) 97%);
 .services .icon-box h4 a {
   text-decoration: none;
   bottom: 10px;
-  font-size: 15px;
+  padding-top: 10px;
+  font-size: 20px;
   color: #000;
   transition: ease-in-out 0.3s;
 }
-.services .icon-box img{
+.services img{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  top: 0;
-  padding: 0;
-  margin: 0;
+  padding : 0;
   width: 100%;
 }
 
+.services .icon-box p {
+  font-size: 10px;
+  padding: 5px 15px 15px 10px;
+  margin-bottom: 0;
+}
 .services .icon-box:hover {
-  border-color: #fff;
+  border-color: #000;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
 
+@media screen and (max-width: 640px){
+.services .icon-box {
+  width: 100%;
+}
+}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -1163,6 +1164,12 @@ padding-top: 5px;
 #boxing {
 padding-left: 230px;
 }
+
+.pricing img{
+  border-radius: 5px;
+  width: 100%;
+}
+
 #pricing{
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(32,69,157,1) 100%);
@@ -1183,9 +1190,9 @@ padding-left: 230px;
   font-weight: 400;
   margin: -20px -20px 20px -20px;
   padding: 20px 15px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
-  color: #2c4964;
+  color: #000;
   background: #f8f8f8;
 }
 .pricing h4 {
@@ -1214,6 +1221,7 @@ padding-left: 230px;
   font-size: 14px;
 }
 .pricing ul li {
+  padding-top :16px; ;
   padding-bottom: 16px;
 }
 .pricing ul i {
@@ -1243,6 +1251,7 @@ padding-left: 230px;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   transition: 0.3s;
+  text-decoration: none;
 }
 .pricing .btn-buy:hover {
   background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
@@ -1271,7 +1280,7 @@ padding-left: 230px;
 }
 
 /*--------------------------------------------------------------
-# Frequently Asked Questions
+# Faq
 --------------------------------------------------------------*/
 .faq {
   background: rgb(245,132,52);
@@ -1342,6 +1351,28 @@ padding-left: 230px;
 .faq .faq-list a.collapsed .icon-close {
   display: none;
 }
+@media (max-width: 1200px) {
+  .faq .faq-list {
+    padding: 0;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Faqq
+--------------------------------------------------------------*/
+.faqq {
+  padding: 80px 0;
+  background: url("../img/map.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.section-title h2{
+  color: #000;
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   .faq .faq-list {
     padding: 0;
